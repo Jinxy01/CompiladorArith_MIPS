@@ -1,0 +1,30 @@
+(* Exemplo de execução *)
+
+(* Inteiros *)
+
+let z = 2
+let t = z
+
+outputString "Valores de inteiros"
+outputInt z
+outputInt t
+
+outputString "Altera valores"
+t <- 6
+outputInt z
+outputInt t
+
+(* Vetores *)
+
+let y = arrayInt 3
+let x = y
+
+outputString "Valores de vetor de inteiro"
+y[2] <- 3
+outputInt y[2]
+outputInt x[2]
+
+outputString "Altera novamente valores"
+x[2] <- 5
+outputInt y[2]
+outputInt x[2]

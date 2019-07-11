@@ -1,0 +1,9 @@
+(* Exemplos de tipagem *)
+
+outputString "Insira um valor "
+let z = inputInt
+outputFloat "Valor de z "			(* alterar para outputString *)
+outputInt z
+z <- 5.2 							(* alterar para 3 *)
+outputString "Novo valor de z "
+outputInt z

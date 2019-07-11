@@ -1,0 +1,6 @@
+(* Exemplos de tipagem *)
+
+let t = 5.2 			(* alterar para 4 *)
+let x = fun y -> y - t
+let z = (t 5) 			(* alterar para x *)
+outputInt z				(* output = 1 *)

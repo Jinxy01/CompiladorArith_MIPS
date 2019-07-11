@@ -1,0 +1,5 @@
+(* Exemplos de tipagem *)
+
+let x = arrayInt 5.2 	(* alterar para 4 *)
+x[6]<- 5.2				(* alterar para 3 e 6, respetivamente *)
+outputInt x[3]		
